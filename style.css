@@ -1,0 +1,93 @@
+body {
+  font-family: Georgia, serif;
+  background: #f4b6b6;
+  color: #1b2a4a;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 49px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.colors {
+  margin-bottom: 25px;
+}
+
+.dot {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 6px;
+}
+
+.dot:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+#hexBox {
+  background: #1b2a4a;
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.small {
+  color: gray;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.buttons button,
+.custom button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 12px 22px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.custom input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-family: monospace;
+}
+
+.footer {
+  color: #1b2a4a;
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 25px;
+}

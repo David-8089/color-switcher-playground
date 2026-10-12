@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Switcher Playground</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="label">JavaScript Practice</p>
+    <h1>Color Switcher Playground</h1>
+
+    <div class="card">
+      <div class="colors">
+        <button
+          class="dot"
+          style="background: red"
+          onclick="pickColor('#e74c3c')"
+        ></button>
+        <button
+          class="dot"
+          style="background: skyblue"
+          onclick="pickColor('#56ccf2')"
+        ></button>
+        <button
+          class="dot"
+          style="background: green"
+          onclick="pickColor('#27ae60')"
+        ></button>
+        <button
+          class="dot"
+          style="background: gold"
+          onclick="pickColor('#f2c94c')"
+        ></button>
+        <button
+          class="dot"
+          style="background: purple"
+          onclick="pickColor('#9b51e0')"
+        ></button>
+        <button
+          class="dot"
+          style="background: teal"
+          onclick="pickColor('#2d9cdb')"
+        ></button>
+        <button
+          class="dot"
+          style="background: orange"
+          onclick="pickColor('#f2994a')"
+        ></button>
+        <button
+          class="dot"
+          style="background: navy"
+          onclick="pickColor('#1b2a4a')"
+        ></button>
+      </div>
+
+      <button id="hexBox" onclick="copyHex()">#f4b6b6</button>
+      <p class="small">click the code to copy it</p>
+
+      <div class="buttons">
+        <button onclick="randomColor()">Random</button>
+        <button onclick="resetColor()">Reset</button>
+      </div>
+
+      <div class="custom">
+        <input type="text" id="hexInput" placeholder="#rrggbb" />
+        <button onclick="applyColor()">Apply</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
